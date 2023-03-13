@@ -9,6 +9,8 @@
 
 .navbar-brand {
     font-size: 1.1rem;
+    font-family: 'Miriam Libre';
+    font-weight: 700;
 }
 
 .oi {

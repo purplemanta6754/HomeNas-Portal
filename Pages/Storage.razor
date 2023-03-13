@@ -1,13 +1,16 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿@page "/storage"
+
+<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
-        <PageTitle>404 Not found</PageTitle>
+        <PageTitle>503 Service Unavailable</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
-            <h1 role="alert">404 Not found</h1>
-            <p role="alert">Lo siento, no hay nada en esta dirección <i class="bi bi-emoji-frown"></i></p>
+            <h1 role="alert">503 Service Unavailable</h1>
+            <p role="alert">No disponible temporalmente debido a trabajos de mantenimiento o actualización en curso.</p>
         </LayoutView>
     </NotFound>
 </Router>
+
