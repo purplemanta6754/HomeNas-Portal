@@ -6,6 +6,29 @@ html, body {
     font-family: Raleway, Helvetica, Arial, sans-serif;
 }
 
+
+body {
+    --sb-track-color: #dadada;
+    --sb-thumb-color: #3423a6;
+    --sb-size: 12px;
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+    body::-webkit-scrollbar {
+        width: var(--sb-size)
+    }
+
+    body::-webkit-scrollbar-track {
+        background: var(--sb-track-color);
+        border-radius: 15px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: var(--sb-thumb-color);
+        border-radius: 15px;
+        border: 2px solid #d8d8d8;
+    }
+
 h1:focus {
     outline: none;
 }
