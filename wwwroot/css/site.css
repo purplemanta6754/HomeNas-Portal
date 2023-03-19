@@ -20,7 +20,6 @@ body {
 
     body::-webkit-scrollbar-track {
         background: var(--sb-track-color);
-        border-radius: 15px;
     }
 
     body::-webkit-scrollbar-thumb {
