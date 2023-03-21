@@ -1,17 +1,6 @@
 using HomeNasPortal.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Components.WebAssembly.Services;
-
-// Obtener detalles del cliente
-var browserService = serviceProvider.GetService<IWebAssemblyHostEnvironment>();
-var browserName = browserService.Browser;
-var os = browserService.Runtime.OperatingSystem;
-
-// Obtener detalles del servidor
-var navigationManager = serviceProvider.GetService<NavigationManager>();
-var baseUri = navigationManager.BaseUri;
-var serverUri = navigationManager.ToAbsoluteUri(baseUri).Host;
 
 
 var builder = WebApplication.CreateBuilder(args);
