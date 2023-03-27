@@ -2,7 +2,8 @@
 .top-row,
 .navbar-brand,
 .oi,
-.nav-item {
+.nav-item,
+.app-details {
     user-select: none;
 }
 
@@ -28,6 +29,10 @@
     top: -2px;
 }
 
+.app-build-info {
+    line-height: 6rem;
+}
+
 .nav-item {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
@@ -43,7 +48,7 @@
 
 .nav-item ::deep a {
     color: #d7d7d7;
-    border-radius: 4px;
+    border-radius: 6px;
     height: 3rem;
     display: flex;
     align-items: center;
