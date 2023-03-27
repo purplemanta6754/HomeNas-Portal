@@ -1,0 +1,59 @@
+{
+    "blacklistedIP's": [
+        "114.129.60.137",
+        "100.146.219.19",
+        "242.161.181.201",
+        "146.204.10.9",
+        "46.197.76.157"
+    ],
+    "adminAccounts": [
+        {
+            "account1": [
+                {
+                    "userName" : "John Doe",
+                    "email": "someemail1@email.com",
+                    "password": "abcdefghij"
+                }
+            ],
+            "account2": [
+                {
+                    "userName" : "Jane Doe",
+                    "email": "someemail2@email.com",
+                    "password": "1234567890"
+                }
+            ],
+            "account3": [
+                {
+                    "userName" : "John Doe",
+                    "email": "someemail3@email.com",
+                    "password": "0987654321"
+                }
+            ]
+        }
+    ],
+    "userAccounts": [
+        {
+            "account1": [
+                {
+                    "userName" : "John Doe",
+                    "email": "someemail1@email.com",
+                    "password": "abcdefghij"
+                }
+            ],
+            "account2": [
+                {
+                    "userName" : "Jane Doe",
+                    "email": "someemail2@email.com",
+                    "password": "1234567890"
+                }
+            ],
+            "account3": [
+                {
+                    "userName" : "John Doe",
+                    "email": "someemail3@email.com",
+                    "password": "0987654321"
+                }
+            ]
+        }
+    ]
+}
