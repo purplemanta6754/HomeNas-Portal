@@ -3,7 +3,7 @@
 .navbar-brand,
 .oi,
 .nav-item,
-.app-details {
+.app-build-info-btn {
     user-select: none;
 }
 
@@ -29,8 +29,12 @@
     top: -2px;
 }
 
-.app-build-info {
-    line-height: 6rem;
+.app-build-info-btn {
+    opacity: 70%;
+}
+
+.credits-btn {
+    opacity: 70%;
 }
 
 .nav-item {
@@ -48,7 +52,7 @@
 
 .nav-item ::deep a {
     color: #d7d7d7;
-    border-radius: 6px;
+    border-radius: 4px;
     height: 3rem;
     display: flex;
     align-items: center;
