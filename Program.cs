@@ -37,4 +37,4 @@ app.MapFallbackToPage("/_Host");
 
 app.Run();
 
-Console.WriteLine("Thanks for using HomeNas Portal " + buildVersion, ". Be sure to check https://github.com/purplemant5467/HomeNas-Portal/releases/latest every month to keep the software up to date.");
+Console.WriteLine("Thanks for using HomeNas Portal " + buildVersion, ". Be sure to check https://github.com/purplemanta6754/HomeNas-Portal/releases/latest every month to keep the software up to date.");
