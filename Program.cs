@@ -20,6 +20,9 @@ if (!app.Environment.IsDevelopment())
 }
 
 
+Console.WriteLine("You are using " + buildVersion + " Build");
+Console.WriteLine("Enjoy! :)");
+
 
 
 app.UseHttpsRedirection();
@@ -33,5 +36,4 @@ app.MapFallbackToPage("/_Host");
 
 app.Run();
 
-Console.WriteLine("You are using" + buildVersion + "Build");
-Console.WriteLine("Enjoy! :)");
+Console.WriteLine("Thanks for using HomeNas Portal " + buildVersion);
