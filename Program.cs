@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
 
-var buildVersion = "Beta v.1.0.0";
+string buildVersion = "Beta v.1.0.0";
 var builder = WebApplication.CreateBuilder(args);
 
 Console.WriteLine("You are using HomeNas Portal " + buildVersion + " Build");
@@ -37,4 +37,5 @@ app.MapFallbackToPage("/_Host");
 
 app.Run();
 
-Console.WriteLine("Thanks for using HomeNas Portal " + buildVersion, ". Be sure to check https://github.com/purplemanta6754/HomeNas-Portal/releases/latest every month to keep the software up to date.");
+Console.WriteLine("Thanks for using HomeNas Portal " + buildVersion);
+Console.WriteLine("Be sure to check https://github.com/purplemanta6754/HomeNas-Portal/releases/latest every month to keep the software up to date.");
